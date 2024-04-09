@@ -1,0 +1,29 @@
+.menu-container {
+  width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.menu-item {
+  padding: 8px;
+  background-color: #4fe985;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #52bd7b;
+}
+
+.submenu {
+  display: none;
+  margin-left: 20px;
+}
+
+.submenu-item {
+  background-color: #49e8e0;
+  border: 1px solid #000000;
+}
+
+.submenu-item:hover {
+  background-color: #52bdb8;
+}
